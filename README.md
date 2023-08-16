@@ -18,7 +18,8 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
 #### Таблицы inventory, rental и film
 
 - оптимизируйте запрос: внесите корректировки по использованию операторов, при необходимости добавьте индексы.
-![image](https://github.com/FadMikhail/Indexes/assets/132131230/a13c7d5f-e707-4cfd-b0f8-2ee734fedb56)
+![image](https://github.com/FadMikhail/Indexes/assets/132131230/22ec789f-74fc-4abc-93e7-60611fcf6170)
+
 
 
 
