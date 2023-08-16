@@ -15,8 +15,10 @@ from payment p, rental r, customer c, inventory i, film f
 where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and r.customer_id = c.customer_id and i.inventory_id = r.inventory_id
 ```
 - перечислите узкие места;
-#### Таблицы rental и film
+#### Таблицы inventory, rental и film
 
 - оптимизируйте запрос: внесите корректировки по использованию операторов, при необходимости добавьте индексы.
+![image](https://github.com/FadMikhail/Indexes/assets/132131230/a13c7d5f-e707-4cfd-b0f8-2ee734fedb56)
+
 
 
